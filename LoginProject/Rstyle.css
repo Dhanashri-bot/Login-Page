@@ -1,0 +1,28 @@
+body{
+    background-color: #6d6d7b;
+    margin: 0%;
+    padding: 0;
+   
+}
+h1{
+    
+    text-align: center;
+    background-color: darkblue;
+    color: antiquewhite;
+    
+    
+}
+.container{
+
+    background-color:blanchedalmond;
+    font-family: sans-serif;
+    text-align: center;
+    
+}
+button{
+    background-color: blue;
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    color: antiquewhite;
+}

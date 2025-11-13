@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="Rstyle.css">
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Login Page</h1>
+        <script>
+    
+     function checklogin(){
+       u=document.getElementById("uname").value;
+       p=document.getElementById("Pwrd").value;
+
+       if (u==="abc" && p==="123")
+       {
+        
+        document.getElementById("Welcome").innerHTML="login"
+    
+       }
+       else{
+        document.getElementById("response").innerHTML="wrong Username or Password"
+       }
+    }
+    </script>
+    <form >
+    <input type="text" placeholder="Enter your username" id="uname"><br><br>
+    <input type="password" placeholder="Enter your password" id="Pwrd"><br><br>
+    <input type="button" value="login"  onclick="checklogin()" style="background-color: blue; width:100px;  height: 40px; border-radius: 30px; color: antiquewhite;">
+    <p id="response"></p>
+    <a href="WelcomePage.html" id="Welcome"></a>
+    </form>
+    
+    
+    
+</body>
+</html>
